@@ -4,17 +4,23 @@
 # mosquitto_pub -h yodapi.local -t "yoda/talk" -m "yes.mp3"
 
 import paho.mqtt.client as mqtt
-import os
+import pygame
 import time
 
 clientName = "yoda"
-serverAddress = "yoda.local"
+serverAddress = "yoda" # problems connecting? try <your server name>.local
 mqttClient = mqtt.Client(clientName)
+fileLocation = "/home/pi/sounds/"
 
+# init pygame.mixer, which plays audio in our program.
 # Test, Yoda should say Yes each time he's started up
 # You should change this line so that it contains a file on
 # your Raspberry Pi.
-os.system('mpg123 /home/pi/sounds/yes.mp3 &')
+pygame.mixer.init()
+pygame.mixer.music.load(fileLocation + "yes.mp3") # assumes you have a file with this name in a /home/pi/sounds directory
+speakerVolume = "0.5" # initially sets speaker at 50%
+pygame.mixer.music.set_volume(float(speakerVolume))
+pygame.mixer.music.play()
 
 def connectionStatus(client, userdata, flags, rc):
     print("subscribing")
@@ -23,9 +29,17 @@ def connectionStatus(client, userdata, flags, rc):
 
 def messageDecoder(client, userdata, msg):
     message = msg.payload.decode(encoding='UTF-8')
-    print("^^^ payload message = \(message)")
-    os.system('mpg123 /home/pi/sounds/' + message + ' &')
-    time.sleep(4.0)
+    # Feel free to remove the print, but confirmation in the terminal is nice.
+    print("^^^ payload message = ", message)
+    if message.startswith("vol-"):
+        # Mac slider sends messages as a String "vol-#.#" where #.# is from 0.0 to 1.0.
+        message = message.strip("vol-")
+        speakerVolume = float(message)
+        pygame.mixer.music.set_volume(speakerVolume)
+    else:
+        pygame.mixer.music.load(fileLocation + message)
+        pygame.mixer.music.play()
+        time.sleep(4.0) # wait 4 seconds between plays.
 
 # Set up calling functions to mqttClient
 mqttClient.on_connect = connectionStatus
