@@ -12,6 +12,9 @@ serverAddress = "yoda.local"
 mqttClient = mqtt.Client(clientName)
 
 # Test, Yoda should say Yes each time he's started up
+# You should change this line so that it contains a file on
+# your Raspberry Pi.
+os.system('mpg123 /home/pi/sounds/yes.mp3 &')
 
 def connectionStatus(client, userdata, flags, rc):
     print("subscribing")

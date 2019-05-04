@@ -45,9 +45,5 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
-	<key>UIAppFonts</key>
-	<array>
-		<string>Death Star.otf</string>
-	</array>
 </dict>
 </plist>
