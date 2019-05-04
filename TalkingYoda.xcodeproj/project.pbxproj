@@ -55,6 +55,7 @@
 		3E0A3091227D040300D7C2DD = {
 			isa = PBXGroup;
 			children = (
+				3EE69B5E227D0A2C0055B91D /* talk.py */,
 				3E0A309C227D040300D7C2DD /* TalkingYoda */,
 				3E0A309B227D040300D7C2DD /* Products */,
 				A0B757B76D31A4B804086C68 /* Pods */,
@@ -79,7 +80,6 @@
 				3E0A30A4227D040500D7C2DD /* Assets.xcassets */,
 				3E0A30A6227D040500D7C2DD /* LaunchScreen.storyboard */,
 				3E0A30A9227D040500D7C2DD /* Info.plist */,
-				3EE69B5E227D0A2C0055B91D /* talk.py */,
 				3E66E84D227D278500A5D46C /* Death Star.otf */,
 			);
 			path = TalkingYoda;
