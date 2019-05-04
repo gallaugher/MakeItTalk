@@ -4,8 +4,6 @@
 # mosquitto_pub -h yodapi.local -t "yoda/talk" -m "yes.mp3"
 
 import paho.mqtt.client as mqtt
-
-from adafruit_crickit import crickit
 import os
 import time
 
