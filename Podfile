@@ -1,6 +1,6 @@
 platform :ios, '10.0'
 use_frameworks!
 
-target 'TalkingYoda' do
+target 'MakeItTalk' do
     pod 'CocoaMQTT'
 end

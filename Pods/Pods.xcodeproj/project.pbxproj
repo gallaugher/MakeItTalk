@@ -7,17 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05F7C2A1ECC173DD15530966BBA3AC3F /* Pods-TalkingYoda-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04D1878BEAC4CD1B2D771CB39B306F22 /* Pods-TalkingYoda-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12E2FC1695CA62199F8F987BC04A7E6C /* Pods-MakeItTalk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1252AE33D6989E4FD1B3C0494CBEA6A /* Pods-MakeItTalk-dummy.m */; };
+		20B3DCB1FBC19845C5DDEA818FBF9548 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A2BBEB32D8915A83E694EFD34C8FFC /* Foundation.framework */; };
 		20E042529ECF2A6F90AEA688A1B60055 /* CocoaMQTTMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51819B34DC019D88B7C87C59E7690BD /* CocoaMQTTMessage.swift */; };
 		276E4ED83C7CB3C7ABA8C315C95AF010 /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = AE76B73BD661FD77634CDEB13AA00142 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29FDCCEB5B61FB63A7FB7559D028E132 /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2C8655FA8F09315DE12F3EDF6B01B8 /* CocoaAsyncSocket-dummy.m */; };
 		30EB0441B370047F3A269D68E32BEC64 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB51F05EBB4AA9E86591AE56B946788 /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		349B44049A23348B5913ECDAD1CFBAAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A2BBEB32D8915A83E694EFD34C8FFC /* Foundation.framework */; };
-		3F5D9B976FF0DE31302DB2C4D41FF1FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A2BBEB32D8915A83E694EFD34C8FFC /* Foundation.framework */; };
 		4C20321A1137EDCF9CFA8CB68876B006 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B3A455E9C5EC46E1549ECE3A2BC17A4 /* CFNetwork.framework */; };
 		4FCBB9CE36B7C4394D23BE9CD1F58F12 /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7EA5CFE9F0F4C466F016D23916A5D7C /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		514BC058252B650C9FED769E27F9D67C /* CocoaMQTT-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA8823FBFE4E6ACB6B192F0BBABE398 /* CocoaMQTT-dummy.m */; };
-		687CE24D0E36BE51982ED41AA2C235E7 /* Pods-TalkingYoda-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8FA5B5E3A042E9CEED2CBC01333A75 /* Pods-TalkingYoda-dummy.m */; };
 		70E31745FB41B12BFDD003885D8345D6 /* CocoaMQTT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323E6E0777F4070027E74869986CCF6B /* CocoaMQTT.swift */; };
 		AB05F306C63D2284DD2F2FC2EC971173 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A2BBEB32D8915A83E694EFD34C8FFC /* Foundation.framework */; };
 		B0446EF8F41A78F83A141E8405916F8C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F22B758DC08AFEFDEC5D075EB80E2E48 /* Security.framework */; };
@@ -25,24 +24,25 @@
 		C247CBB0877137691DC5A0694A129D09 /* CocoaMQTTFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF85A1F3FE2D98F5D46AFCB1ACBF94C /* CocoaMQTTFrame.swift */; };
 		C469CD2BA1C71D6A84BA5489D7D71E6F /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9FEADCF4CF85B9DA173E3EFAB1150B2 /* CocoaAsyncSocket.framework */; };
 		C49615EF65685B3B3ED99637EE7A63BF /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC1452CEBFFF483DBECA1026C94DF2F /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EB6A7538B21149719121FD97A5CE054F /* Pods-MakeItTalk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F92F4379C176A9068A933D2A7936CAA /* Pods-MakeItTalk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EDE24A4C3BB5F17DDC1037359C490751 /* CocoaMQTT.h in Headers */ = {isa = PBXBuildFile; fileRef = E46C80BEC4269A01E608D29A79A997B7 /* CocoaMQTT.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F83071B70FC55E8088670A18C3716BED /* CocoaMQTT-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A8D6B80C890C232678623C74D0E4302 /* CocoaMQTT-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6BACF8A68CB9E198907CA58D56195AA7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 76309BED843D6C108C1E0B97A9A4D953;
-			remoteInfo = CocoaAsyncSocket;
-		};
-		B9F9B4CB3E1AE40005732AA8B7DCD77F /* PBXContainerItemProxy */ = {
+		0BE50C93625C73BA4335F64567DA917D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 86529150B9F5D35287A78B9978920B8A;
 			remoteInfo = CocoaMQTT;
+		};
+		59E3D91C85BA9BF17EE6BBED4B758AD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76309BED843D6C108C1E0B97A9A4D953;
+			remoteInfo = CocoaAsyncSocket;
 		};
 		D074E07AFF3B1896988A3538FE9E73F9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -54,47 +54,55 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02D06B92C43A052BDC58593585DB8B04 /* Pods-TalkingYoda-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TalkingYoda-acknowledgements.markdown"; sourceTree = "<group>"; };
-		04D1878BEAC4CD1B2D771CB39B306F22 /* Pods-TalkingYoda-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TalkingYoda-umbrella.h"; sourceTree = "<group>"; };
-		0D8FA5B5E3A042E9CEED2CBC01333A75 /* Pods-TalkingYoda-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TalkingYoda-dummy.m"; sourceTree = "<group>"; };
+		1D00E00775156D099317004DFEAA352A /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaAsyncSocket.framework; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		240420B7A695FC41ECA8EE477017CE99 /* CocoaMQTT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaMQTT.framework; path = CocoaMQTT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		28C57AE2E292BDD66BDC69144047423F /* Pods-TalkingYoda-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TalkingYoda-resources.sh"; sourceTree = "<group>"; };
 		2BBDBD71DFE0FEFDC0A7BD86235D32F2 /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
 		323E6E0777F4070027E74869986CCF6B /* CocoaMQTT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CocoaMQTT.swift; path = Source/CocoaMQTT.swift; sourceTree = "<group>"; };
 		3B3A455E9C5EC46E1549ECE3A2BC17A4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		4BC1452CEBFFF483DBECA1026C94DF2F /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
 		4DBE101AFC9FBACA6430495A155069F0 /* CocoaMQTT-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaMQTT-prefix.pch"; sourceTree = "<group>"; };
-		50F014F0D11DCD63A983F89567F3CA09 /* Pods-TalkingYoda-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TalkingYoda-frameworks.sh"; sourceTree = "<group>"; };
+		4E0C8A9BF0622D96537B8A4C7459C9A9 /* Pods-MakeItTalk-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MakeItTalk-acknowledgements.markdown"; sourceTree = "<group>"; };
 		53262C8A9CC7638107809285EBA5D183 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		57D258CA6DBD50881E0AD371EA824EE9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6410C2C65444476F964921A588D62178 /* Pods_TalkingYoda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TalkingYoda.framework; path = "Pods-TalkingYoda.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53BF8F0B9CE2234F86288A81F0A8EBC5 /* Pods-MakeItTalk-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MakeItTalk-acknowledgements.plist"; sourceTree = "<group>"; };
+		5DE5487637EB475C5F80300C85DA9121 /* Pods-MakeItTalk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MakeItTalk.modulemap"; sourceTree = "<group>"; };
+		6253607E1166117061D7D0809D99424C /* Pods-MakeItTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MakeItTalk.release.xcconfig"; sourceTree = "<group>"; };
 		6A8D6B80C890C232678623C74D0E4302 /* CocoaMQTT-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaMQTT-umbrella.h"; sourceTree = "<group>"; };
-		8A112379A93165F26EA5D39A945BCB4D /* Pods-TalkingYoda.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TalkingYoda.modulemap"; sourceTree = "<group>"; };
-		8EE0AD78AAC7C3B48DBB483E7CA78B43 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaAsyncSocket.framework; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CEEEF21AC2C1B25A23A99BEB306993D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90B10B5D0E465B57B7B9A8BE91026755 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94A33ABD005A305F707BBC736A3FE467 /* CocoaMQTT.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaMQTT.modulemap; sourceTree = "<group>"; };
 		997AC3055BF240F207E454FF971B9B97 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		9F92F4379C176A9068A933D2A7936CAA /* Pods-MakeItTalk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MakeItTalk-umbrella.h"; sourceTree = "<group>"; };
 		9FB51F05EBB4AA9E86591AE56B946788 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		A901C616807301FC2C05F39C0E242FF5 /* Pods-MakeItTalk-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MakeItTalk-frameworks.sh"; sourceTree = "<group>"; };
 		ACF85A1F3FE2D98F5D46AFCB1ACBF94C /* CocoaMQTTFrame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CocoaMQTTFrame.swift; path = Source/CocoaMQTTFrame.swift; sourceTree = "<group>"; };
 		AE76B73BD661FD77634CDEB13AA00142 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		B1252AE33D6989E4FD1B3C0494CBEA6A /* Pods-MakeItTalk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MakeItTalk-dummy.m"; sourceTree = "<group>"; };
 		B7EA5CFE9F0F4C466F016D23916A5D7C /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
 		BC2C8655FA8F09315DE12F3EDF6B01B8 /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
 		D159751E7EDD0092167CD07503EEFB6A /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
 		D51819B34DC019D88B7C87C59E7690BD /* CocoaMQTTMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CocoaMQTTMessage.swift; path = Source/CocoaMQTTMessage.swift; sourceTree = "<group>"; };
 		D6DCB1865C373789DFC45F2005AF5044 /* CocoaMQTT.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaMQTT.xcconfig; sourceTree = "<group>"; };
-		D91F5539590B476A70FCF8569E081A27 /* Pods-TalkingYoda-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TalkingYoda-acknowledgements.plist"; sourceTree = "<group>"; };
 		D9D25224CD0F2FB1FD6581261DE5136D /* CocoaAsyncSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.xcconfig; sourceTree = "<group>"; };
+		DE2E95D4FE20CED817C90F41FA63E7A1 /* Pods-MakeItTalk-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MakeItTalk-resources.sh"; sourceTree = "<group>"; };
 		E46C80BEC4269A01E608D29A79A997B7 /* CocoaMQTT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CocoaMQTT.h; path = Source/CocoaMQTT.h; sourceTree = "<group>"; };
-		F0C65F2BECD2BB158795924739D9A4E5 /* Pods-TalkingYoda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TalkingYoda.release.xcconfig"; sourceTree = "<group>"; };
+		E47A28ED5A9586B57C0EBEB95B006CD7 /* Pods_MakeItTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MakeItTalk.framework; path = "Pods-MakeItTalk.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD911FA6AC0715D1DC132607EE44322 /* Pods-MakeItTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MakeItTalk.debug.xcconfig"; sourceTree = "<group>"; };
 		F22B758DC08AFEFDEC5D075EB80E2E48 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		F9A2BBEB32D8915A83E694EFD34C8FFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		F9FEADCF4CF85B9DA173E3EFAB1150B2 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCD3BAEF76BDF4DF68C40A4F5754B922 /* CocoaMQTT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaMQTT.framework; path = CocoaMQTT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDB54725E7147A2E414C37EFE18E07DE /* Pods-TalkingYoda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TalkingYoda.debug.xcconfig"; sourceTree = "<group>"; };
 		FEA8823FBFE4E6ACB6B192F0BBABE398 /* CocoaMQTT-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaMQTT-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9AA8C27D3908FA0D3A00A3896A2025B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B3DCB1FBC19845C5DDEA818FBF9548 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B8F218C85B5921D79B479E79708F38DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -114,17 +122,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FDC45B310334D45576B1509CAFCF7BD8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3F5D9B976FF0DE31302DB2C4D41FF1FF /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EEE763891E76FF353061B43ACF05A80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D00E00775156D099317004DFEAA352A /* CocoaAsyncSocket.framework */,
+				240420B7A695FC41ECA8EE477017CE99 /* CocoaMQTT.framework */,
+				E47A28ED5A9586B57C0EBEB95B006CD7 /* Pods_MakeItTalk.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		2CCDB3267E3498DAC1A9686C143BDE05 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,12 +162,30 @@
 			path = CocoaAsyncSocket;
 			sourceTree = "<group>";
 		};
-		749DF4C600C8F0656FB8D5DC6E3E83A6 /* Targets Support Files */ = {
+		5D1F9EE5EDA38C5F31A763B64CE89B53 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EAC10DD2755306A55DE27F748A21AE9D /* Pods-TalkingYoda */,
+				6571D5DC5F0BB6299FE30EEF8182649F /* Pods-MakeItTalk */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6571D5DC5F0BB6299FE30EEF8182649F /* Pods-MakeItTalk */ = {
+			isa = PBXGroup;
+			children = (
+				7CEEEF21AC2C1B25A23A99BEB306993D /* Info.plist */,
+				5DE5487637EB475C5F80300C85DA9121 /* Pods-MakeItTalk.modulemap */,
+				4E0C8A9BF0622D96537B8A4C7459C9A9 /* Pods-MakeItTalk-acknowledgements.markdown */,
+				53BF8F0B9CE2234F86288A81F0A8EBC5 /* Pods-MakeItTalk-acknowledgements.plist */,
+				B1252AE33D6989E4FD1B3C0494CBEA6A /* Pods-MakeItTalk-dummy.m */,
+				A901C616807301FC2C05F39C0E242FF5 /* Pods-MakeItTalk-frameworks.sh */,
+				DE2E95D4FE20CED817C90F41FA63E7A1 /* Pods-MakeItTalk-resources.sh */,
+				9F92F4379C176A9068A933D2A7936CAA /* Pods-MakeItTalk-umbrella.h */,
+				EFD911FA6AC0715D1DC132607EE44322 /* Pods-MakeItTalk.debug.xcconfig */,
+				6253607E1166117061D7D0809D99424C /* Pods-MakeItTalk.release.xcconfig */,
+			);
+			name = "Pods-MakeItTalk";
+			path = "Target Support Files/Pods-MakeItTalk";
 			sourceTree = "<group>";
 		};
 		7EC9E25B0E05BC0D8E3351FD5B1D87B2 /* Frameworks */ = {
@@ -167,16 +195,6 @@
 				9E97675F428D396D93DF14EB05F90BA1 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		98C12F1EFF1AA4180C12144D7B9536DF /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8EE0AD78AAC7C3B48DBB483E7CA78B43 /* CocoaAsyncSocket.framework */,
-				FCD3BAEF76BDF4DF68C40A4F5754B922 /* CocoaMQTT.framework */,
-				6410C2C65444476F964921A588D62178 /* Pods_TalkingYoda.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		9E97675F428D396D93DF14EB05F90BA1 /* iOS */ = {
@@ -218,27 +236,9 @@
 				24390EFD555DD124430DFF9724065945 /* Podfile */,
 				7EC9E25B0E05BC0D8E3351FD5B1D87B2 /* Frameworks */,
 				B6CA13E1B3C7397316799E3F78E1981E /* Pods */,
-				98C12F1EFF1AA4180C12144D7B9536DF /* Products */,
-				749DF4C600C8F0656FB8D5DC6E3E83A6 /* Targets Support Files */,
+				1EEE763891E76FF353061B43ACF05A80 /* Products */,
+				5D1F9EE5EDA38C5F31A763B64CE89B53 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		EAC10DD2755306A55DE27F748A21AE9D /* Pods-TalkingYoda */ = {
-			isa = PBXGroup;
-			children = (
-				57D258CA6DBD50881E0AD371EA824EE9 /* Info.plist */,
-				8A112379A93165F26EA5D39A945BCB4D /* Pods-TalkingYoda.modulemap */,
-				02D06B92C43A052BDC58593585DB8B04 /* Pods-TalkingYoda-acknowledgements.markdown */,
-				D91F5539590B476A70FCF8569E081A27 /* Pods-TalkingYoda-acknowledgements.plist */,
-				0D8FA5B5E3A042E9CEED2CBC01333A75 /* Pods-TalkingYoda-dummy.m */,
-				50F014F0D11DCD63A983F89567F3CA09 /* Pods-TalkingYoda-frameworks.sh */,
-				28C57AE2E292BDD66BDC69144047423F /* Pods-TalkingYoda-resources.sh */,
-				04D1878BEAC4CD1B2D771CB39B306F22 /* Pods-TalkingYoda-umbrella.h */,
-				FDB54725E7147A2E414C37EFE18E07DE /* Pods-TalkingYoda.debug.xcconfig */,
-				F0C65F2BECD2BB158795924739D9A4E5 /* Pods-TalkingYoda.release.xcconfig */,
-			);
-			name = "Pods-TalkingYoda";
-			path = "Target Support Files/Pods-TalkingYoda";
 			sourceTree = "<group>";
 		};
 		EF49FDDFE7808E7AE10DCC667F257828 /* CocoaMQTT */ = {
@@ -267,20 +267,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2A8C7D183FB58DA7055B48D9FD03C41A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6A7538B21149719121FD97A5CE054F /* Pods-MakeItTalk-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6ED8BEB1931442CD9EF8BC190228DE40 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F83071B70FC55E8088670A18C3716BED /* CocoaMQTT-umbrella.h in Headers */,
 				EDE24A4C3BB5F17DDC1037359C490751 /* CocoaMQTT.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FFC95E007D011C0D7704ACB4590C2164 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				05F7C2A1ECC173DD15530966BBA3AC3F /* Pods-TalkingYoda-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,7 +302,7 @@
 			);
 			name = CocoaAsyncSocket;
 			productName = CocoaAsyncSocket;
-			productReference = 8EE0AD78AAC7C3B48DBB483E7CA78B43 /* CocoaAsyncSocket.framework */;
+			productReference = 1D00E00775156D099317004DFEAA352A /* CocoaAsyncSocket.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		86529150B9F5D35287A78B9978920B8A /* CocoaMQTT */ = {
@@ -321,27 +321,27 @@
 			);
 			name = CocoaMQTT;
 			productName = CocoaMQTT;
-			productReference = FCD3BAEF76BDF4DF68C40A4F5754B922 /* CocoaMQTT.framework */;
+			productReference = 240420B7A695FC41ECA8EE477017CE99 /* CocoaMQTT.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E47D93615A495DC5DFC1A8D56F8FBD4D /* Pods-TalkingYoda */ = {
+		E108F4F464B3269AD150CA1EF83140A8 /* Pods-MakeItTalk */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4D6548FA798083258374983DD012D70 /* Build configuration list for PBXNativeTarget "Pods-TalkingYoda" */;
+			buildConfigurationList = EA0C5FBE19D637D15A5A0BAFC02D4360 /* Build configuration list for PBXNativeTarget "Pods-MakeItTalk" */;
 			buildPhases = (
-				FFC95E007D011C0D7704ACB4590C2164 /* Headers */,
-				32026944067DFAFC37D43640ABC707ED /* Sources */,
-				FDC45B310334D45576B1509CAFCF7BD8 /* Frameworks */,
-				9A7164BE0AA04CF7DB87AC199A826284 /* Resources */,
+				2A8C7D183FB58DA7055B48D9FD03C41A /* Headers */,
+				4EB2661C0F4F961948A2EA4A25AE9360 /* Sources */,
+				9AA8C27D3908FA0D3A00A3896A2025B0 /* Frameworks */,
+				2145EC5854800019DA9CEA775D642311 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1230DA6414D2644E65601DEB33202B9F /* PBXTargetDependency */,
-				5DA92861154A5E669D681F4ADA0C3342 /* PBXTargetDependency */,
+				C31210127667ADD370C85B7203041389 /* PBXTargetDependency */,
+				E038294077FDB139F030738288E589E2 /* PBXTargetDependency */,
 			);
-			name = "Pods-TalkingYoda";
-			productName = "Pods-TalkingYoda";
-			productReference = 6410C2C65444476F964921A588D62178 /* Pods_TalkingYoda.framework */;
+			name = "Pods-MakeItTalk";
+			productName = "Pods-MakeItTalk";
+			productReference = E47A28ED5A9586B57C0EBEB95B006CD7 /* Pods_MakeItTalk.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -361,19 +361,26 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 98C12F1EFF1AA4180C12144D7B9536DF /* Products */;
+			productRefGroup = 1EEE763891E76FF353061B43ACF05A80 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				76309BED843D6C108C1E0B97A9A4D953 /* CocoaAsyncSocket */,
 				86529150B9F5D35287A78B9978920B8A /* CocoaMQTT */,
-				E47D93615A495DC5DFC1A8D56F8FBD4D /* Pods-TalkingYoda */,
+				E108F4F464B3269AD150CA1EF83140A8 /* Pods-MakeItTalk */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1B6CC23B28F4A50A6C7CB6E4C5F702D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2145EC5854800019DA9CEA775D642311 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -387,21 +394,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A7164BE0AA04CF7DB87AC199A826284 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		32026944067DFAFC37D43640ABC707ED /* Sources */ = {
+		4EB2661C0F4F961948A2EA4A25AE9360 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				687CE24D0E36BE51982ED41AA2C235E7 /* Pods-TalkingYoda-dummy.m in Sources */,
+				12E2FC1695CA62199F8F987BC04A7E6C /* Pods-MakeItTalk-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,23 +429,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1230DA6414D2644E65601DEB33202B9F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CocoaAsyncSocket;
-			target = 76309BED843D6C108C1E0B97A9A4D953 /* CocoaAsyncSocket */;
-			targetProxy = 6BACF8A68CB9E198907CA58D56195AA7 /* PBXContainerItemProxy */;
-		};
 		3D10A96B7E15D3F374DCD9E37FBB91F5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CocoaAsyncSocket;
 			target = 76309BED843D6C108C1E0B97A9A4D953 /* CocoaAsyncSocket */;
 			targetProxy = D074E07AFF3B1896988A3538FE9E73F9 /* PBXContainerItemProxy */;
 		};
-		5DA92861154A5E669D681F4ADA0C3342 /* PBXTargetDependency */ = {
+		C31210127667ADD370C85B7203041389 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = 76309BED843D6C108C1E0B97A9A4D953 /* CocoaAsyncSocket */;
+			targetProxy = 59E3D91C85BA9BF17EE6BBED4B758AD4 /* PBXContainerItemProxy */;
+		};
+		E038294077FDB139F030738288E589E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CocoaMQTT;
 			target = 86529150B9F5D35287A78B9978920B8A /* CocoaMQTT */;
-			targetProxy = B9F9B4CB3E1AE40005732AA8B7DCD77F /* PBXContainerItemProxy */;
+			targetProxy = 0BE50C93625C73BA4335F64567DA917D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -485,9 +485,9 @@
 			};
 			name = Debug;
 		};
-		668257BA1E9D8B3D817865728835534E /* Debug */ = {
+		89BB763CB86EEE33EEC22FA9EFD619B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FDB54725E7147A2E414C37EFE18E07DE /* Pods-TalkingYoda.debug.xcconfig */;
+			baseConfigurationReference = EFD911FA6AC0715D1DC132607EE44322 /* Pods-MakeItTalk.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -500,7 +500,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TalkingYoda/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-MakeItTalk/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -509,7 +509,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TalkingYoda/Pods-TalkingYoda.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-MakeItTalk/Pods-MakeItTalk.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -618,45 +618,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A683DA76D6FEBCCF3C2CE03AA63FC119 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0C65F2BECD2BB158795924739D9A4E5 /* Pods-TalkingYoda.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TalkingYoda/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TalkingYoda/Pods-TalkingYoda.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -797,6 +758,45 @@
 			};
 			name = Release;
 		};
+		D447788462F35B8F651F657DE6FB3A54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6253607E1166117061D7D0809D99424C /* Pods-MakeItTalk.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MakeItTalk/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MakeItTalk/Pods-MakeItTalk.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -827,11 +827,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4D6548FA798083258374983DD012D70 /* Build configuration list for PBXNativeTarget "Pods-TalkingYoda" */ = {
+		EA0C5FBE19D637D15A5A0BAFC02D4360 /* Build configuration list for PBXNativeTarget "Pods-MakeItTalk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				668257BA1E9D8B3D817865728835534E /* Debug */,
-				A683DA76D6FEBCCF3C2CE03AA63FC119 /* Release */,
+				89BB763CB86EEE33EEC22FA9EFD619B9 /* Debug */,
+				D447788462F35B8F651F657DE6FB3A54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

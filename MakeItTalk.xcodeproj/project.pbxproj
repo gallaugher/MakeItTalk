@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CA30EA00CF6EECB7B28629C /* Pods_MakeItTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59555EEBCFA47A59B242410A /* Pods_MakeItTalk.framework */; };
 		3E0A309E227D040300D7C2DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0A309D227D040300D7C2DD /* AppDelegate.swift */; };
 		3E0A30A0227D040300D7C2DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0A309F227D040300D7C2DD /* ViewController.swift */; };
 		3E0A30A3227D040300D7C2DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E0A30A1227D040300D7C2DD /* Main.storyboard */; };
@@ -14,11 +15,10 @@
 		3E0A30A8227D040500D7C2DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E0A30A6227D040500D7C2DD /* LaunchScreen.storyboard */; };
 		3EC93FC5227DDF37008AFC92 /* talk-mqttclient.service in Resources */ = {isa = PBXBuildFile; fileRef = 3EC93FC4227DDF37008AFC92 /* talk-mqttclient.service */; };
 		3EE69B5F227D0A2C0055B91D /* talk.py in Resources */ = {isa = PBXBuildFile; fileRef = 3EE69B5E227D0A2C0055B91D /* talk.py */; };
-		A4D6F088AA8961AE3DBCFE54 /* Pods_TalkingYoda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF3890FE081977491BFFF5E /* Pods_TalkingYoda.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3E0A309A227D040300D7C2DD /* TalkingYoda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalkingYoda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E0A309A227D040300D7C2DD /* MakeItTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakeItTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E0A309D227D040300D7C2DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E0A309F227D040300D7C2DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3E0A30A2227D040300D7C2DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -27,9 +27,9 @@
 		3E0A30A9227D040500D7C2DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EC93FC4227DDF37008AFC92 /* talk-mqttclient.service */ = {isa = PBXFileReference; lastKnownFileType = text; path = "talk-mqttclient.service"; sourceTree = "<group>"; };
 		3EE69B5E227D0A2C0055B91D /* talk.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = talk.py; sourceTree = "<group>"; };
-		5E1737BE60FDC03DE783A4D3 /* Pods-TalkingYoda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkingYoda.release.xcconfig"; path = "Pods/Target Support Files/Pods-TalkingYoda/Pods-TalkingYoda.release.xcconfig"; sourceTree = "<group>"; };
-		849146D2D774669A31190FF6 /* Pods-TalkingYoda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkingYoda.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TalkingYoda/Pods-TalkingYoda.debug.xcconfig"; sourceTree = "<group>"; };
-		CDF3890FE081977491BFFF5E /* Pods_TalkingYoda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TalkingYoda.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59555EEBCFA47A59B242410A /* Pods_MakeItTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MakeItTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3C43D737C34B310A14AAE1F /* Pods-MakeItTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeItTalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-MakeItTalk/Pods-MakeItTalk.release.xcconfig"; sourceTree = "<group>"; };
+		D62A348ADD9E54F7C0ECB8A4 /* Pods-MakeItTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeItTalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MakeItTalk/Pods-MakeItTalk.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4D6F088AA8961AE3DBCFE54 /* Pods_TalkingYoda.framework in Frameworks */,
+				2CA30EA00CF6EECB7B28629C /* Pods_MakeItTalk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,7 +47,7 @@
 		206A8CCA3366787E12EBDD1C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CDF3890FE081977491BFFF5E /* Pods_TalkingYoda.framework */,
+				59555EEBCFA47A59B242410A /* Pods_MakeItTalk.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -57,22 +57,22 @@
 			children = (
 				3EE69B5E227D0A2C0055B91D /* talk.py */,
 				3EC93FC4227DDF37008AFC92 /* talk-mqttclient.service */,
-				3E0A309C227D040300D7C2DD /* TalkingYoda */,
+				3E0A309C227D040300D7C2DD /* MakeItTalk */,
 				3E0A309B227D040300D7C2DD /* Products */,
-				A0B757B76D31A4B804086C68 /* Pods */,
 				206A8CCA3366787E12EBDD1C /* Frameworks */,
+				A39179D22589E974E8F52D8B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		3E0A309B227D040300D7C2DD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3E0A309A227D040300D7C2DD /* TalkingYoda.app */,
+				3E0A309A227D040300D7C2DD /* MakeItTalk.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3E0A309C227D040300D7C2DD /* TalkingYoda */ = {
+		3E0A309C227D040300D7C2DD /* MakeItTalk */ = {
 			isa = PBXGroup;
 			children = (
 				3E0A309D227D040300D7C2DD /* AppDelegate.swift */,
@@ -82,14 +82,14 @@
 				3E0A30A6227D040500D7C2DD /* LaunchScreen.storyboard */,
 				3E0A30A9227D040500D7C2DD /* Info.plist */,
 			);
-			path = TalkingYoda;
+			path = MakeItTalk;
 			sourceTree = "<group>";
 		};
-		A0B757B76D31A4B804086C68 /* Pods */ = {
+		A39179D22589E974E8F52D8B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				849146D2D774669A31190FF6 /* Pods-TalkingYoda.debug.xcconfig */,
-				5E1737BE60FDC03DE783A4D3 /* Pods-TalkingYoda.release.xcconfig */,
+				D62A348ADD9E54F7C0ECB8A4 /* Pods-MakeItTalk.debug.xcconfig */,
+				A3C43D737C34B310A14AAE1F /* Pods-MakeItTalk.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -97,9 +97,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3E0A3099227D040300D7C2DD /* TalkingYoda */ = {
+		3E0A3099227D040300D7C2DD /* MakeItTalk */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E0A30AC227D040500D7C2DD /* Build configuration list for PBXNativeTarget "TalkingYoda" */;
+			buildConfigurationList = 3E0A30AC227D040500D7C2DD /* Build configuration list for PBXNativeTarget "MakeItTalk" */;
 			buildPhases = (
 				7066CBACDC72A37DEF287C93 /* [CP] Check Pods Manifest.lock */,
 				3E0A3096227D040300D7C2DD /* Sources */,
@@ -111,9 +111,9 @@
 			);
 			dependencies = (
 			);
-			name = TalkingYoda;
+			name = MakeItTalk;
 			productName = TalkingYoda;
-			productReference = 3E0A309A227D040300D7C2DD /* TalkingYoda.app */;
+			productReference = 3E0A309A227D040300D7C2DD /* MakeItTalk.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -131,7 +131,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3E0A3095227D040300D7C2DD /* Build configuration list for PBXProject "TalkingYoda" */;
+			buildConfigurationList = 3E0A3095227D040300D7C2DD /* Build configuration list for PBXProject "MakeItTalk" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -144,7 +144,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3E0A3099227D040300D7C2DD /* TalkingYoda */,
+				3E0A3099227D040300D7C2DD /* MakeItTalk */,
 			);
 		};
 /* End PBXProject section */
@@ -180,7 +180,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TalkingYoda-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MakeItTalk-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -195,7 +195,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-TalkingYoda/Pods-TalkingYoda-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-MakeItTalk/Pods-MakeItTalk-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
 				"${BUILT_PRODUCTS_DIR}/CocoaMQTT/CocoaMQTT.framework",
 			);
@@ -208,7 +208,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TalkingYoda/Pods-TalkingYoda-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MakeItTalk/Pods-MakeItTalk-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -363,17 +363,17 @@
 		};
 		3E0A30AD227D040500D7C2DD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 849146D2D774669A31190FF6 /* Pods-TalkingYoda.debug.xcconfig */;
+			baseConfigurationReference = D62A348ADD9E54F7C0ECB8A4 /* Pods-MakeItTalk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9937BJYLPH;
-				INFOPLIST_FILE = TalkingYoda/Info.plist;
+				INFOPLIST_FILE = MakeItTalk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gallaugher.TalkingYoda;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gallaugher.MakeItTalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -382,17 +382,17 @@
 		};
 		3E0A30AE227D040500D7C2DD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E1737BE60FDC03DE783A4D3 /* Pods-TalkingYoda.release.xcconfig */;
+			baseConfigurationReference = A3C43D737C34B310A14AAE1F /* Pods-MakeItTalk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9937BJYLPH;
-				INFOPLIST_FILE = TalkingYoda/Info.plist;
+				INFOPLIST_FILE = MakeItTalk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gallaugher.TalkingYoda;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gallaugher.MakeItTalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -402,7 +402,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3E0A3095227D040300D7C2DD /* Build configuration list for PBXProject "TalkingYoda" */ = {
+		3E0A3095227D040300D7C2DD /* Build configuration list for PBXProject "MakeItTalk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3E0A30AA227D040500D7C2DD /* Debug */,
@@ -411,7 +411,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E0A30AC227D040500D7C2DD /* Build configuration list for PBXNativeTarget "TalkingYoda" */ = {
+		3E0A30AC227D040500D7C2DD /* Build configuration list for PBXNativeTarget "MakeItTalk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3E0A30AD227D040500D7C2DD /* Debug */,

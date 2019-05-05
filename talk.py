@@ -39,7 +39,7 @@ def messageDecoder(client, userdata, msg):
     else:
         pygame.mixer.music.load(fileLocation + message)
         pygame.mixer.music.play()
-        time.sleep(4.0) # wait 4 seconds between plays.
+        time.sleep(1.0) # wait 4 seconds between plays.
 
 # Set up calling functions to mqttClient
 mqttClient.on_connect = connectionStatus
