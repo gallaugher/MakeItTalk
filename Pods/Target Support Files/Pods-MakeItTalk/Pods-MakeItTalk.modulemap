@@ -1,0 +1,6 @@
+framework module Pods_MakeItTalk {
+  umbrella header "Pods-MakeItTalk-umbrella.h"
+
+  export *
+  module * { export * }
+}

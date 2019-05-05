@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_TalkingYodaVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_TalkingYodaVersionString[];
+FOUNDATION_EXPORT double Pods_MakeItTalkVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_MakeItTalkVersionString[];
 

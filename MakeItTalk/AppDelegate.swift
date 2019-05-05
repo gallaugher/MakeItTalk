@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  TalkingYoda
+//  MakeItTalk
 //
 //  Created by John Gallaugher on 5/3/19.
 //  Copyright © 2019 John Gallaugher. All rights reserved.
