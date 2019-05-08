@@ -1,14 +1,14 @@
 # talk.py
 # once running, you can test with the shell commands:
 # To start the robot:
-# mosquitto_pub -h yodapi.local -t "yoda/talk" -m "yes.mp3"
+# mosquitto_pub -h talkpi.local -t "talkpi/talk" -m "yes.mp3"
 
 import paho.mqtt.client as mqtt
 import pygame
 import time
 
-clientName = "yoda"
-serverAddress = "yoda" # problems connecting? try <your server name>.local
+clientName = "talk"
+serverAddress = "talkpi" # problems connecting? try <your server name>.local
 mqttClient = mqtt.Client(clientName)
 fileLocation = "/home/pi/sounds/"
 
@@ -24,7 +24,7 @@ pygame.mixer.music.play()
 
 def connectionStatus(client, userdata, flags, rc):
     print("subscribing")
-    mqttClient.subscribe("yoda/talk")
+    mqttClient.subscribe("talkpi/talk")
     print("subscribed")
 
 def messageDecoder(client, userdata, msg):

@@ -13,7 +13,6 @@
 		3E0A30A3227D040300D7C2DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E0A30A1227D040300D7C2DD /* Main.storyboard */; };
 		3E0A30A5227D040500D7C2DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E0A30A4227D040500D7C2DD /* Assets.xcassets */; };
 		3E0A30A8227D040500D7C2DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E0A30A6227D040500D7C2DD /* LaunchScreen.storyboard */; };
-		3EC93FC5227DDF37008AFC92 /* talk-mqttclient.service in Resources */ = {isa = PBXBuildFile; fileRef = 3EC93FC4227DDF37008AFC92 /* talk-mqttclient.service */; };
 		3EE69B5F227D0A2C0055B91D /* talk.py in Resources */ = {isa = PBXBuildFile; fileRef = 3EE69B5E227D0A2C0055B91D /* talk.py */; };
 /* End PBXBuildFile section */
 
@@ -25,7 +24,6 @@
 		3E0A30A4227D040500D7C2DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E0A30A7227D040500D7C2DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E0A30A9227D040500D7C2DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3EC93FC4227DDF37008AFC92 /* talk-mqttclient.service */ = {isa = PBXFileReference; lastKnownFileType = text; path = "talk-mqttclient.service"; sourceTree = "<group>"; };
 		3EE69B5E227D0A2C0055B91D /* talk.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = talk.py; sourceTree = "<group>"; };
 		59555EEBCFA47A59B242410A /* Pods_MakeItTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MakeItTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3C43D737C34B310A14AAE1F /* Pods-MakeItTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeItTalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-MakeItTalk/Pods-MakeItTalk.release.xcconfig"; sourceTree = "<group>"; };
@@ -56,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				3EE69B5E227D0A2C0055B91D /* talk.py */,
-				3EC93FC4227DDF37008AFC92 /* talk-mqttclient.service */,
 				3E0A309C227D040300D7C2DD /* MakeItTalk */,
 				3E0A309B227D040300D7C2DD /* Products */,
 				206A8CCA3366787E12EBDD1C /* Frameworks */,
@@ -157,7 +154,6 @@
 				3E0A30A8227D040500D7C2DD /* LaunchScreen.storyboard in Resources */,
 				3E0A30A5227D040500D7C2DD /* Assets.xcassets in Resources */,
 				3EE69B5F227D0A2C0055B91D /* talk.py in Resources */,
-				3EC93FC5227DDF37008AFC92 /* talk-mqttclient.service in Resources */,
 				3E0A30A3227D040300D7C2DD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

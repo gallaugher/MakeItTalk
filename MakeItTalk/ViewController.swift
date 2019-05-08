@@ -55,9 +55,9 @@ class ViewController: UIViewController {
                                  "yes.mp3"]
     
     
-    let mqttclient = CocoaMQTT(clientID: "YodaApp", host: "yoda.local", port: 1883)
+    let mqttclient = CocoaMQTT(clientID: "TalkApp", host: "talkpi.local", port: 1883)
     // *** IMPORTANT NOTE: Make sure your host name is entered properly, below ***
-    // let mqttClient = CocoaMQTT(clientID: "PiBotApp", host: "zerobot.local", port: 1883)
+    // let mqttClient = CocoaMQTT(clientID: "TalkApp", host: "talkpi.local", port: 1883)
     // If you still have problems, make sure spelling is exactly as you've named your Pi
     // and is what you use when you ssh log in.
     // If that still doesn't work, try removing .local from the name.
@@ -76,7 +76,7 @@ class ViewController: UIViewController {
     
     @IBAction func slideValueChanged(_ sender: UISlider) {
         let volume = "vol-\(sender.value)"
-        mqttclient.publish("yoda/talk", withString: volume)
+        mqttclient.publish("talkpi/talk", withString: volume)
     }
     
     @IBAction func connectButtonPressed(_ sender: UIButton) {
@@ -97,7 +97,7 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        mqttclient.publish("yoda/talk", withString: soundFiles[indexPath.row])
+        mqttclient.publish("talkpi/talk", withString: soundFiles[indexPath.row])
         if let selectedRow = tableView.indexPathForSelectedRow {
             tableView.deselectRow(at: selectedRow, animated: true)
         }
